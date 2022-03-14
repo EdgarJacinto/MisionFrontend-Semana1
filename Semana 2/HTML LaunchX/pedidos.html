@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cosmos - Pedidos</title>
+	<link rel="shortcut icon" type="Image/x-icon" href="Imagenes/logo_small_icon_only.png">
+</head>
+<body>
+	<h2>Pedido</h2>
+	<h4>Sin CSS</h4>
+	<form action="" method=""> 
+		<input type="text"  placeholder="Nombre:" name="nombre" maxlength="40" size="35" required>
+		<!-- Otros atributos: readonly, disabled, size, maxlength -->
+		<br>
+		<input type="email" placeholder="Email:" name="correo" size="35" required>
+		<br>
+		<input type="tel" placeholder="Telefóno:" name="telefono" maxlength="10"size="35" required>
+		<br>
+		<textarea name="mensaje" placeholder="Descripción del pastel" cols="35"></textarea>
+		<br>
+
+		<label for="sabor">Sabores:</label>
+		<br>
+		<select name="" id="primerS">
+			<option value="chocolate">Chocolate</option>
+			<option value="fresa" selected>Fresa</option>
+			<option value="cafe">Café</option>
+			<option value="limon">Limón</option>
+			<option value="amargo">Cho. Amargo</option>
+		</select>
+		<select name="" id="segundoS">
+			<option value="null"selected>Ninguno</option>
+			<option value="chocolate">Chocolate</option>
+			<option value="fresa" >Fresa</option>
+			<option value="cafe">Café</option>
+			<option value="limon">Limón</option>
+			<option value="amargo">Cho. Amargo</option>
+		</select>
+		<br>
+		<label for="adornos">Adornos:</label>
+			<br>
+		<select name="" id="primerA">
+			<option value="adorno1" selected>Adorno1</option>
+			<option value="adorno2">Adorno2</option>
+			<option value="adorno3">Adorno3</option>
+			<option value="adorno4">Adorno4</option>
+			<option value="adorno5">Adorno5</option>
+		</select>
+		<select name="" id="primerA">
+			<option value="adorno1">Adorno1</option>
+			<option value="adorno2" selected>Adorno2</option>
+			<option value="adorno3">Adorno3</option>
+			<option value="adorno4">Adorno4</option>
+			<option value="adorno5">Adorno5</option>
+		</select>
+		<br>
+		<input type="checkbox" name="terminos" id="terminos"><label for="terminos">Aceptar Terminos y Condiciones</label>
+		<br>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
